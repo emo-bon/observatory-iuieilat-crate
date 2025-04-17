@@ -40,6 +40,9 @@
                     "@id": "logsheets/"
                 },
                 {
+                    "@id": "all-triples.ttl"
+                },
+                {
                     "@id": "logsheets/sediment_measured.csv"
                 },
                 {
@@ -142,6 +145,11 @@
             "@label": "./data-quality-control/logfile",
             "@type": "File",
             "encodingFormat": "text/plain"
+        },
+        {
+            "@id": "all-triples.ttl", 
+            "@type": "File",
+            "encodingFormat": "text/turtle"
         },
         {
             "@id": "data-quality-control/report.csv",
